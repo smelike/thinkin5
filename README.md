@@ -1,10 +1,13 @@
 ThinkPHP 5.0
 ===============
+### 用法
 
-第一步：安装 ThinkPHP 5.0，使用 Git 安装，步骤分别是：
-一、复制应用（git clone https://github.com/top-think/think tp5）；
-二、切换到应用 tp5 目录，复制框架（git clone https://github.com/top-think/framework thinkphp）
-
+* 第一步：安装 ThinkPHP 5.0，使用 Git 安装，步骤分别是：
+* 一、复制应用（git clone https://github.com/top-think/think tp5）；
+* 二、切换到应用 tp5 目录，复制框架（git clone https://github.com/top-think/framework thinkphp）
+* 第二步：创建控制器，调用视图；
+* 第三步：实现 CURD 操作；
+* 第四步：更多其他的功能；
 
 ## 目录结构
 
