@@ -1,0 +1,19 @@
+<meta charset="utf-8" />
+
+<table>
+	<tr>
+		<td>ID</td>
+		<td>Name</td>
+		<td>Operate</td>
+	</tr>
+	{volist name="projects" id="project"}
+	<tr>
+		<td>{$project.id}</td>
+		<td>{$project.name}</td>
+		<td>
+			<a href="{:url('index/edit', ['id' => $project.id])}">编辑</a>
+			<a href="{:url('index/delete', ['id' => $project.id])}">删除</a>
+		</td>
+	</tr>
+	{/volist}
+</table>
